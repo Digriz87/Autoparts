@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "530650838882",
+    "firebase_url": "https://autoparts-20dd4.firebaseio.com",
+    "project_id": "autoparts-20dd4",
+    "storage_bucket": "autoparts-20dd4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530650838882:android:8ff38990bdb15a1d",
+        "android_client_info": {
+          "package_name": "com.sales.autoparts.autoparts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "530650838882-hq8ilq0bvanm8k2rvrrgr2pllp88g8vb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9tHAhfSlNudsHlpCOyF3pvuX4Gm1oc28"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

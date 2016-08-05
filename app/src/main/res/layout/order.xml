@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+
+    >
+
+
+
+    <ImageView
+        android:id="@+id/shadow"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:background="#2979FF"
+
+        />
+
+    <ImageView
+        android:id="@+id/shadow_sink"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#616161"
+
+        />
+    <ScrollView
+        android:id="@+id/main_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="110px"
+        >
+
+    <LinearLayout
+        android:id="@+id/main_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+
+        >
+
+    </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+<ImageView
+    android:id="@+id/backspace"
+    android:layout_marginTop="5px"
+    android:layout_width="90px"
+    android:layout_height="90px"
+    android:background="@drawable/left"
+
+
+    />
+
+    <ImageView
+        android:id="@+id/orderSend"
+        android:layout_width="350px"
+        android:layout_height="100px"
+        android:background="@drawable/buttonzakaz"
+
+        android:clickable="true"
+        android:onClick="orderSend"
+        />
+
+    <ImageView
+        android:id="@+id/mainLogo"
+        android:layout_marginTop="5px"
+        android:layout_marginLeft="10px"
+        android:layout_width="350px"
+        android:layout_height="90px"
+        android:background="@drawable/log"
+        />
+    <ImageView
+        android:id="@+id/shadow_top"
+    android:layout_width="match_parent"
+    android:layout_height="50px"
+    android:background="#20FFFFFF"
+
+    />
+</FrameLayout>

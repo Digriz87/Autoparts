@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainFrameLayout"
+    android:background="#FFFFFF">
+
+
+
+<ImageView
+    android:id="@+id/shadow"
+    android:layout_width="match_parent"
+    android:layout_height="100px"
+    android:background="#2979FF"
+
+    />
+    <ImageView
+        android:id="@+id/shadow_sink"
+        android:layout_marginTop="100px"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#616161"
+
+        />
+    <ImageView
+        android:id="@+id/palochka_one"
+    android:layout_marginTop="280px"
+    android:layout_width="match_parent"
+    android:layout_height="1px"
+    android:background="#616161"
+
+    />
+    <ImageView
+        android:id="@+id/palochka_two"
+    android:layout_marginTop="520px"
+    android:layout_width="match_parent"
+    android:layout_height="1px"
+    android:background="#616161"
+
+    />
+    <ImageView
+        android:id="@+id/palochka_three"
+        android:layout_marginTop="660px"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#616161"
+
+        />
+    <ImageView
+        android:id="@+id/palochka_four"
+        android:layout_marginTop="400px"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#616161"
+
+        />
+    <ImageView
+        android:id="@+id/shadow_top"
+                android:layout_width="match_parent"
+        android:layout_height="50px"
+        android:background="#20FFFFFF"
+
+        />
+
+
+
+    <ImageView
+        android:id="@+id/mainLogo"
+        android:layout_marginTop="5px"
+        android:layout_marginLeft="10px"
+        android:layout_width="350px"
+        android:layout_height="90px"
+        android:background="@drawable/log"
+        />
+
+    <EditText
+
+        android:layout_marginTop="120px"
+        android:layout_marginLeft="20px"
+        android:layout_width="600px"
+        android:layout_height="90px"
+        android:id="@+id/editText"
+        android:layout_gravity="left|top"
+        android:hint="Введите артикул запчасти"
+        />
+
+    <ImageView
+        android:id="@+id/SearchBtn"
+        android:layout_width="80px"
+        android:layout_height="80px"
+        android:background="@drawable/search"
+        android:layout_marginTop="120px"
+        android:layout_gravity="right"
+        android:layout_marginRight="80px"
+        android:clickable="true"
+        android:onClick="buttonClick"
+        />
+
+    <ImageView
+        android:id="@+id/clear_search"
+        android:layout_width="80px"
+        android:layout_height="80px"
+        android:background="@drawable/delete2"
+        android:layout_marginTop="120px"
+        android:layout_gravity="right"
+        android:layout_marginRight="10px"
+        android:clickable="true"
+        android:onClick="clearSearch"
+        />
+    <ImageView
+        android:id="@+id/icon_one"
+        android:layout_width="90px"
+        android:layout_height="90px"
+        android:background="@drawable/form"
+        android:layout_marginTop="300px"
+        android:layout_marginLeft="20px"
+android:clickable="true"
+        android:onClick="requestVinBtn"
+        />
+
+    <TextView
+        android:id="@+id/request_vin"
+        android:layout_width="600px"
+        android:layout_height="40px"
+        android:layout_marginTop="300px"
+        android:layout_marginLeft="120px"
+        android:text="Запрос по VIN"
+        android:textStyle="bold"
+        android:textColor="#212121"
+        />
+    <TextView
+        android:id="@+id/description_vin"
+        android:layout_width="600px"
+        android:layout_height="40px"
+        android:layout_marginTop="340px"
+        android:layout_marginLeft="120px"
+        android:text="Подбор запчастей менеджером"
+        android:textStyle="italic"
+        android:textColor="#212121"
+        />
+
+    <ImageView
+        android:id="@+id/contacts_icon"
+        android:layout_width="90px"
+        android:layout_height="90px"
+        android:background="@drawable/email"
+        android:layout_marginTop="420px"
+        android:layout_marginLeft="20px"
+        />
+
+    <TextView
+        android:id="@+id/contacts_description"
+        android:layout_width="600px"
+        android:layout_height="40px"
+        android:layout_marginTop="420px"
+        android:layout_marginLeft="120px"
+        android:text="Контакты"
+        android:textStyle="bold"
+        android:textColor="#212121"
+        />
+    <TextView
+        android:id="@+id/description_contacts"
+        android:layout_width="600px"
+        android:layout_height="40px"
+        android:layout_marginTop="460px"
+        android:layout_marginLeft="120px"
+        android:text="Данные магазина и карта"
+        android:textStyle="italic"
+        android:textColor="#212121"
+        />
+    <ImageView
+        android:id="@+id/icon_bu"
+        android:layout_width="90px"
+        android:layout_height="90px"
+        android:background="@drawable/details"
+        android:layout_marginTop="540px"
+        android:layout_marginLeft="20px"
+        />
+
+    <TextView
+        android:id="@+id/catalog_bu_description"
+        android:layout_width="600px"
+        android:layout_height="40px"
+        android:layout_marginTop="540px"
+        android:layout_marginLeft="120px"
+        android:text="Каталог БУ автозапчастей"
+        android:textStyle="bold"
+        android:textColor="#212121"
+        />
+    <TextView
+        android:id="@+id/catalog_bu_des"
+        android:layout_width="600px"
+        android:layout_height="70px"
+        android:layout_marginTop="580px"
+        android:layout_marginLeft="120px"
+        android:text="[В РАЗРАБОТКЕ, СКОРО ПОЯВИТСЯ]"
+        android:textStyle="italic"
+        android:textColor="#212121"
+        />
+
+    <ImageView
+        android:id="@+id/visa"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:background="@drawable/visa"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="280px"
+        android:layout_marginBottom="40px"
+        />
+
+    <ImageView
+        android:id="@+id/mastercard"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:background="@drawable/mastercard"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="380px"
+        android:layout_marginBottom="40px"
+        />
+
+
+</FrameLayout>
